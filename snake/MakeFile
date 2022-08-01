@@ -1,8 +1,0 @@
-#MakeFile
-all: main
-
-main: board main.cpp
-	g++ -o main board.o main.cpp
-
-board: board.cpp
-	g++ -c -o board.o board.cpp
